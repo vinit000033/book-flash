@@ -108,7 +108,7 @@ class MentionBot:
 
         # Inline button example (Library button)
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("📖 Library", url="https://digitallibrary.lovable.app/")]]
+            [[InlineKeyboardButton("📖 Library", url="https://ipm-library.lovable.app/")]]
         )
 
         announce_group_id = self.data.get("announce_group_id")
